@@ -9,7 +9,7 @@ class Solution(object):
         i = 0
         length = len(nums)
 
-        k = k%length
+        k = k%length #rotation is k%length
 
         kstart = length-k
         for j in range (kstart, length):
